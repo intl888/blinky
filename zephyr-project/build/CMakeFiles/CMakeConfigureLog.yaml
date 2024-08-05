@@ -1,0 +1,1570 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    message: |
+      The target system is: Generic - 3.7.99 - x86
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/steve/Desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc.exe 
+      Build flags: -m32
+      Id flags:  
+      
+      The output was:
+      0
+      c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/../../../../x86_64-zephyr-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000008048074
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/3.30.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/steve/Desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc.exe 
+      Build flags: -m32
+      Id flags:  
+      
+      The output was:
+      0
+      c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/../../../../x86_64-zephyr-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000008048074
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/3.30.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:134 (enable_language)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      x86_64-zephyr-elf-gcc.exe (Zephyr SDK 0.16.8) 12.2.0
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:144 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-dhta6t"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-dhta6t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-dhta6t'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_b54f5
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -o CMakeFiles/cmTC_b54f5.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-dhta6t/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_b54f5.dir/src.c.obj -o cmTC_b54f5   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2402 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/linker_flags_template.cmake:11 (check_set_linker_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:37 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-8lhpx0"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-8lhpx0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-8lhpx0'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_be6ed
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0_  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -o CMakeFiles/cmTC_be6ed.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-8lhpx0/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_be6ed.dir/src.c.obj -o cmTC_be6ed   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:35 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-dexhvw"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-dexhvw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wall_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-dexhvw'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_c7ff5
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wall_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wall -o CMakeFiles/cmTC_c7ff5.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-dexhvw/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_c7ff5.dir/src.c.obj -o cmTC_c7ff5   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:35 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c4ghun"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c4ghun"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c4ghun'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_f1765
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wformat -Wformat-security -o CMakeFiles/cmTC_f1765.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c4ghun/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_f1765.dir/src.c.obj -o cmTC_f1765   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:35 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-bjhnxq"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-bjhnxq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-bjhnxq'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_c2251
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wformat -Wformat-zero-length -o CMakeFiles/cmTC_c2251.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-bjhnxq/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_c2251.dir/src.c.obj -o cmTC_c2251   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:42 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-7kaqvg"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-7kaqvg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wdouble_promotion_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-7kaqvg'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_2db75
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wdouble_promotion_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wdouble-promotion -o CMakeFiles/cmTC_2db75.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-7kaqvg/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_2db75.dir/src.c.obj -o cmTC_2db75   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:44 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-666toh"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-666toh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpointer_sign_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-666toh'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_a74ef
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wpointer_sign_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wpointer-sign -o CMakeFiles/cmTC_a74ef.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-666toh/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_a74ef.dir/src.c.obj -o cmTC_a74ef   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:47 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-0751ee"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-0751ee"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpointer_arith_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-0751ee'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_4fb20
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wpointer_arith_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wpointer-arith -o CMakeFiles/cmTC_4fb20.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-0751ee/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_4fb20.dir/src.c.obj -o cmTC_4fb20   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:50 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-3c31di"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-3c31di"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-3c31di'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_4379c
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wexpansion-to-defined -o CMakeFiles/cmTC_4379c.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-3c31di/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_4379c.dir/src.c.obj -o cmTC_4379c   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:60 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-qbw8pa"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-qbw8pa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wlogical_op_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-qbw8pa'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d38f8
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wlogical_op_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wlogical-op -o CMakeFiles/cmTC_d38f8.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-qbw8pa/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_d38f8.dir/src.c.obj -o cmTC_d38f8   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:60 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-g8s3xn"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-g8s3xn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-g8s3xn'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_a9177
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wmissing-field-initializers -o CMakeFiles/cmTC_a9177.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-g8s3xn/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_a9177.dir/src.c.obj -o cmTC_a9177   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:75 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-zx45uc"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-zx45uc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-zx45uc'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_99141
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wpacked-bitfield-compat -o CMakeFiles/cmTC_99141.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-zx45uc/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_99141.dir/src.c.obj -o cmTC_99141   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:75 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-sda94b"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-sda94b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wvla_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-sda94b'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_2020f
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wvla_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wvla -o CMakeFiles/cmTC_2020f.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-sda94b/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_2020f.dir/src.c.obj -o cmTC_2020f   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:94 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-7pd7nn"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-7pd7nn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-7pd7nn'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_1496b
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Wunused-but-set-variable -o CMakeFiles/cmTC_1496b.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-7pd7nn/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_1496b.dir/src.c.obj -o cmTC_1496b   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:96 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-y5voa9"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-y5voa9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-y5voa9'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_51aad
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_Werror_implicit_int_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -Werror=implicit-int -o CMakeFiles/cmTC_51aad.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-y5voa9/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_51aad.dir/src.c.obj -o cmTC_51aad   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:175 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-tk95gk"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-tk95gk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-tk95gk'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_5fe66
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -mstack-protector-guard=global -o CMakeFiles/cmTC_5fe66.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-tk95gk/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_5fe66.dir/src.c.obj -o cmTC_5fe66   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:190 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-1vlc4q"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-1vlc4q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_freestanding_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-1vlc4q'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e0be2
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_fno_freestanding_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fno-freestanding -o CMakeFiles/cmTC_e0be2.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-1vlc4q/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_e0be2.dir/src.c.obj -o cmTC_e0be2   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:193 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-3wljrg"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-3wljrg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ffreestanding_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-3wljrg'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_bc9ec
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_ffreestanding_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -ffreestanding -o CMakeFiles/cmTC_bc9ec.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-3wljrg/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_bc9ec.dir/src.c.obj -o cmTC_bc9ec   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2478 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/compiler/gcc/compiler_flags.cmake:209 (check_set_compiler_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:41 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-fdjb50"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-fdjb50"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_gdwarf_4_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-fdjb50'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_f47ef
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_gdwarf_4_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -gdwarf-4 -o CMakeFiles/cmTC_f47ef.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-fdjb50/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_f47ef.dir/src.c.obj -o cmTC_f47ef   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2402 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/linker_flags.cmake:1 (check_set_linker_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-au0q9y"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-au0q9y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___print_memory_usage"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-au0q9y'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_3fea9
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___print_memory_usage  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--print-memory-usage -o CMakeFiles/cmTC_3fea9.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-au0q9y/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--print-memory-usage  CMakeFiles/cmTC_3fea9.dir/src.c.obj -o cmTC_3fea9   && cd ."
+        Memory region         Used Size  Region Size  %age Used\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2402 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/gcc/linker_flags.cmake:10 (check_set_linker_property)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/linker_flags.cmake:22 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/kernel.cmake:148 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/zephyr_default.cmake:141 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:5 (find_package)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-cpuxue"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-cpuxue"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__pg"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-cpuxue'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_33a91
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__pg  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -pg -o CMakeFiles/cmTC_33a91.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-cpuxue/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -pg  CMakeFiles/cmTC_33a91.dir/src.c.obj -o cmTC_33a91   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_base.cmake:13 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:364 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-tnb5ht"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-tnb5ht"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__m32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-tnb5ht'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_4e650
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__m32  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -m32 -o CMakeFiles/cmTC_4e650.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-tnb5ht/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -m32  CMakeFiles/cmTC_4e650.dir/src.c.obj -o cmTC_4e650   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_base.cmake:13 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:364 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-94bxdk"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-94bxdk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__msoft_float"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-94bxdk'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_7ec6e
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__msoft_float  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -msoft-float -o CMakeFiles/cmTC_7ec6e.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-94bxdk/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -msoft-float  CMakeFiles/cmTC_7ec6e.dir/src.c.obj -o cmTC_7ec6e   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_base.cmake:17 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:364 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-4r2y5d"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-4r2y5d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___gc_sections"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-4r2y5d'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_dc1ff
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___gc_sections  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--gc-sections -o CMakeFiles/cmTC_dc1ff.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-4r2y5d/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--gc-sections  CMakeFiles/cmTC_dc1ff.dir/src.c.obj -o cmTC_dc1ff   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_base.cmake:17 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:364 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-2oohvt"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-2oohvt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___build_id_none"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-2oohvt'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_85b9f
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___build_id_none  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--build-id=none -o CMakeFiles/cmTC_85b9f.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-2oohvt/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--build-id=none  CMakeFiles/cmTC_85b9f.dir/src.c.obj -o cmTC_85b9f   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2003 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_base.cmake:24 (zephyr_ld_option_ifdef)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:364 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-z38udh"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-z38udh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_common_descending"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-z38udh'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_aa5d9
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_common_descending  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--sort-common=descending -o CMakeFiles/cmTC_aa5d9.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-z38udh/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--sort-common=descending  CMakeFiles/cmTC_aa5d9.dir/src.c.obj -o cmTC_aa5d9   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2003 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_base.cmake:24 (zephyr_ld_option_ifdef)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:364 (toolchain_ld_base)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-lergpa"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-lergpa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_section_alignment"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-lergpa'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_a605d
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_section_alignment  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--sort-section=alignment -o CMakeFiles/cmTC_a605d.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-lergpa/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--sort-section=alignment  CMakeFiles/cmTC_a605d.dir/src.c.obj -o cmTC_a605d   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_baremetal.cmake:8 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:373 (toolchain_ld_baremetal)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-bf82v9"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-bf82v9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__nostdlib"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-bf82v9'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_95c73
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__nostdlib  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -nostdlib -o CMakeFiles/cmTC_95c73.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-bf82v9/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -nostdlib  CMakeFiles/cmTC_95c73.dir/src.c.obj -o cmTC_95c73   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_baremetal.cmake:8 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:373 (toolchain_ld_baremetal)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-treem6"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-treem6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__static"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-treem6'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_b6876
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__static  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -static -o CMakeFiles/cmTC_b6876.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-treem6/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -static  CMakeFiles/cmTC_b6876.dir/src.c.obj -o cmTC_b6876   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_baremetal.cmake:8 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:373 (toolchain_ld_baremetal)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-v20nlq"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-v20nlq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__X"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-v20nlq'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_29096
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__X  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,-X -o CMakeFiles/cmTC_29096.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-v20nlq/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,-X  CMakeFiles/cmTC_29096.dir/src.c.obj -o cmTC_29096   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_baremetal.cmake:8 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:373 (toolchain_ld_baremetal)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-31p2r3"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-31p2r3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__N"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-31p2r3'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_63a9b
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__N  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,-N -o CMakeFiles/cmTC_63a9b.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-31p2r3/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,-N  CMakeFiles/cmTC_63a9b.dir/src.c.obj -o cmTC_63a9b   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2321 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:135 (target_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/linker/ld/target_baremetal.cmake:30 (zephyr_ld_options)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:373 (toolchain_ld_baremetal)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-80smva"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-80smva"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___orphan_handling_warn"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-80smva'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_7142d
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___orphan_handling_warn  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--orphan-handling=warn -o CMakeFiles/cmTC_7142d.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-80smva/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -Wl,--orphan-handling=warn  CMakeFiles/cmTC_7142d.dir/src.c.obj -o cmTC_7142d   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:430 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-pboud6"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-pboud6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-pboud6'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_0384b
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fno-asynchronous-unwind-tables -o CMakeFiles/cmTC_0384b.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-pboud6/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_0384b.dir/src.c.obj -o cmTC_0384b   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:438 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-auxhyw"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-auxhyw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-auxhyw'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_a42c6
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -ftls-model=local-exec -o CMakeFiles/cmTC_a42c6.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-auxhyw/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_a42c6.dir/src.c.obj -o cmTC_a42c6   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:458 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-ac34as"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-ac34as"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-ac34as'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_68c4a
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_fno_reorder_functions_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fno-reorder-functions -o CMakeFiles/cmTC_68c4a.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-ac34as/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_68c4a.dir/src.c.obj -o cmTC_68c4a   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:465 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-e092b1"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-e092b1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-e092b1'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_3ada8
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   --param=min-pagesize=0 -o CMakeFiles/cmTC_3ada8.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-e092b1/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_3ada8.dir/src.c.obj -o cmTC_3ada8   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:468 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c3hum7"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c3hum7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_defer_pop_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c3hum7'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_99697
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_fno_defer_pop_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fno-defer-pop -o CMakeFiles/cmTC_99697.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c3hum7/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_99697.dir/src.c.obj -o cmTC_99697   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:487 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-443yzg"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-443yzg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map_C__Users_steve_Desktop_Repositories_blinky_zephyr_project_zephyr_samples_hello_world_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-443yzg'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_961fb
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_fmacro_prefix_map_C__Users_steve_Desktop_Repositories_blinky_zephyr_project_zephyr_samples_hello_world_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fmacro-prefix-map=C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/samples/hello_world=CMAKE_SOURCE_DIR -o CMakeFiles/cmTC_961fb.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-443yzg/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_961fb.dir/src.c.obj -o cmTC_961fb   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:488 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-f0iucy"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-f0iucy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map_C__Users_steve_Desktop_Repositories_blinky_zephyr_project_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-f0iucy'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_3e9d8
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_fmacro_prefix_map_C__Users_steve_Desktop_Repositories_blinky_zephyr_project_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fmacro-prefix-map=C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr=ZEPHYR_BASE -o CMakeFiles/cmTC_3e9d8.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-f0iucy/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_3e9d8.dir/src.c.obj -o cmTC_3e9d8   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/CMakeLists.txt:490 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-05aeau"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-05aeau"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map_C__Users_steve_Desktop_Repositories_blinky_zephyr_project_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-05aeau'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e6e94
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_fmacro_prefix_map_C__Users_steve_Desktop_Repositories_blinky_zephyr_project_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fmacro-prefix-map=C:/Users/steve/Desktop/Repositories/blinky/zephyr-project=WEST_TOPDIR -o CMakeFiles/cmTC_e6e94.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-05aeau/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_e6e94.dir/src.c.obj -o cmTC_e6e94   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/arch/common/CMakeLists.txt:37 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-ysqpog"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-ysqpog"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ffunction_sections_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-ysqpog'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_347b0
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_ffunction_sections_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -ffunction-sections -o CMakeFiles/cmTC_347b0.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-ysqpog/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_347b0.dir/src.c.obj -o cmTC_347b0   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/arch/common/CMakeLists.txt:37 (zephyr_cc_option)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-d3gaop"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-d3gaop"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fdata_sections_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-d3gaop'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_fc66c
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_fdata_sections_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -fdata-sections -o CMakeFiles/cmTC_fc66c.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-d3gaop/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_fc66c.dir/src.c.obj -o cmTC_fc66c   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/arch/x86/ia32.cmake:7 (zephyr_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/arch/x86/CMakeLists.txt:31 (include)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-qbzznf"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-qbzznf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_mpreferred_stack_boundary_2_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-qbzznf'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_cad33
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_mpreferred_stack_boundary_2_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -mpreferred-stack-boundary=2 -o CMakeFiles/cmTC_cad33.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-qbzznf/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_cad33.dir/src.c.obj -o cmTC_cad33   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/arch/x86/ia32.cmake:28 (zephyr_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/arch/x86/CMakeLists.txt:31 (include)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-fpsajc"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-fpsajc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_mno_mmx_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-fpsajc'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_1e641
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_mno_mmx_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -mno-mmx -o CMakeFiles/cmTC_1e641.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-fpsajc/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_1e641.dir/src.c.obj -o cmTC_1e641   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2260 (check_c_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:1114 (check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2299 (zephyr_check_compiler_flag)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:2275 (target_cc_option_fallback)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules/extensions.cmake:126 (target_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/arch/x86/ia32.cmake:77 (zephyr_cc_option)"
+      - "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/arch/x86/CMakeLists.txt:31 (include)"
+    directories:
+      source: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c9vcr8"
+      binary: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c9vcr8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_mno_sse_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c9vcr8'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_80848
+        [1/2] C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -Dcheck_mno_sse_C__nostartfiles__nostdlib__isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem__c__users_steve_desktop_zephyr_sdk_0_16_8_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0  -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0   -mno-sse -o CMakeFiles/cmTC_80848.dir/src.c.obj -c C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/build/CMakeFiles/CMakeScratch/TryCompile-c9vcr8/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\steve\\Desktop\\zephyr-sdk-0.16.8\\x86_64-zephyr-elf\\bin\\x86_64-zephyr-elf-gcc.exe -m32  -nostartfiles -nostdlib -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "c:/users/steve/desktop/zephyr-sdk-0.16.8/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0  CMakeFiles/cmTC_80848.dir/src.c.obj -o cmTC_80848   && cd ."
+        
+      exitCode: 0
+...

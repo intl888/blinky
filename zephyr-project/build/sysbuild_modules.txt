@@ -1,0 +1,1 @@
+"mcuboot":"C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/bootloader/mcuboot":"C:/Users/steve/Desktop/Repositories/blinky/zephyr-project/bootloader/mcuboot/boot/zephyr/sysbuild"

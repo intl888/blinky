@@ -1,0 +1,61 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           Intel 80386
+  Version:                           0x1
+  Entry point address:               0x100000
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          450672 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         2
+  Size of section headers:           40 (bytes)
+  Number of section headers:         23
+  Section header string table index: 22
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] text              PROGBITS        00100000 000080 004000 00  AX  0   0  4
+  [ 2] initlevel         PROGBITS        00104000 004080 000038 00   A  0   0  4
+  [ 3] device_area       PROGBITS        00104038 0040b8 000050 00   A  0   0  4
+  [ 4] tbss              NOBITS          00104088 004108 000004 00 WAT  0   0  4
+  [ 5] rodata            PROGBITS        001040a0 004120 000ad0 00   A  0   0 32
+  [ 6] datas             PROGBITS        00104b80 004c00 0009f0 00  WA  0   0 32
+  [ 7] device_states     PROGBITS        00105570 0055f0 000008 00  WA  0   0  1
+  [ 8] pagetables        PROGBITS        00105578 0055f8 005aa8 00   A  0   0  1
+  [ 9] bss               NOBITS          0010b020 00b0a0 009340 00  WA  0   0 32
+  [10] noinit            NOBITS          00114360 00b0a0 004d40 00  WA  0   0  8
+  [11] .comment          PROGBITS        00000000 00b0a0 000020 01  MS  0   0  1
+  [12] .debug_aranges    PROGBITS        00000000 00b0c0 000e00 00      0   0  8
+  [13] .debug_info       PROGBITS        00000000 00bec0 022ee7 00      0   0  1
+  [14] .debug_abbrev     PROGBITS        00000000 02eda7 00782b 00      0   0  1
+  [15] .debug_line       PROGBITS        00000000 0365d2 01504f 00      0   0  1
+  [16] .debug_frame      PROGBITS        00000000 04b624 002b84 00      0   0  4
+  [17] .debug_str        PROGBITS        00000000 04e1a8 005a6b 01  MS  0   0  1
+  [18] .debug_loc        PROGBITS        00000000 053c13 010074 00      0   0  1
+  [19] .debug_ranges     PROGBITS        00000000 063c88 003168 00      0   0  8
+  [20] .symtab           SYMTAB          00000000 066df0 0030b0 10     21 178  4
+  [21] .strtab           STRTAB          00000000 069ea0 0040f7 00      0   0  1
+  [22] .shstrtab         STRTAB          00000000 06df97 0000d7 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), p (processor specific)
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  LOAD           0x000080 0x00100000 0x00100000 0x0b020 0x190a0 RWE 0x20
+  TLS            0x004108 0x00104088 0x00104088 0x00000 0x00004 R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     text initlevel device_area rodata datas device_states pagetables bss noinit 
+   01     tbss 
