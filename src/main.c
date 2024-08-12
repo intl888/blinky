@@ -19,25 +19,35 @@
  */
 static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);
 
+void led_test(void)
+{
+    int ret;
+
+    if (!device_is_ready(led.port)) {
+        printk("Error: LED device %s is not ready\n", led.port->name);
+        return;
+    }
+
+    ret = gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
+    if (ret < 0) {
+        printk("Error %d: failed to configure LED pin\n", ret);
+        return;
+    }
+
+    printk("Blinking external LED on pin %d\n", led.pin);
+
+    while (1) {
+        ret = gpio_pin_toggle_dt(&led);
+        if (ret < 0) {
+            printk("Error %d: failed to toggle LED\n", ret);
+            return;
+        }
+        k_msleep(SLEEP_TIME_MS);
+    }
+}
+
 int main(void)
 {
-	int ret;
-
-	if (!gpio_is_ready_dt(&led)) {
-		return 0;
-	}
-
-	ret = gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
-	if (ret < 0) {
-		return 0;
-	}
-
-	while (1) {
-		ret = gpio_pin_toggle_dt(&led);
-		if (ret < 0) {
-			return 0;
-		}
-		k_msleep(SLEEP_TIME_MS);
-	}
-	return 0;
-}
+    led_test();
+    return 0;
+} 
